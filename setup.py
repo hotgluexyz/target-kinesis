@@ -11,7 +11,7 @@ setup(
     py_modules=["target_kinesis"],
     install_requires=[
         "singer-python==5.4.1",
-        "boto3==1.9.36"
+        "boto3==1.28.47"
     ],
     extras_require={
         'dev': [
