@@ -37,3 +37,4 @@ def firehose_deliver(client, stream_name, records):
         return response
     except ClientError as c:
         logger.error(c.response['Error']['Message'])
+        raise c
